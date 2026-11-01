@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(w11box CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_executable(w11box w11box.cpp)
+install(TARGETS w11box DESTINATION bin)
